@@ -2,14 +2,6 @@
 
 A full-stack web application that uses **Gemini AI (Google Generative AI)** to analyze and predict health risks based on user inputs like blood pressure, cholesterol, age, etc. Built using **Flask (Python)** for the backend and **React (MUI)** for the frontend.
 
-![AI Health Risk Predictor Banner](https://via.placeholder.com/1000x300?text=AI+Health+Risk+Predictor)
-
----
-
-## 🔗 Demo
-
-Live demo (optional): [https://your-app-url.com](https://your-app-url.com)
-
 ---
 
 ## 🧠 Features
@@ -42,6 +34,7 @@ Live demo (optional): [https://your-app-url.com](https://your-app-url.com)
 ### Prerequisites
 
 - Node.js + npm
+- @mui/icons-material @emotion/react @emotion/styled framer-motion
 - Python 3.10+
 - pip
 - Gemini API key from [Google AI Studio](https://makersuite.google.com/app)
@@ -53,3 +46,13 @@ Live demo (optional): [https://your-app-url.com](https://your-app-url.com)
 ```bash
 cd backend
 pip install -r requirements.txt
+2. Python train_model.py
+3. Python app.py
+```
+FRONTEND:
+```terminal
+1. npm install create-react-app
+2. Cd frontend 
+3. Npm install axios
+4. Npm start
+```
