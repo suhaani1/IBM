@@ -74,7 +74,7 @@ import google.generativeai as genai
 model, scaler = joblib.load("heart_model.pkl")
 
 # Configure Gemini API
-genai.configure(api_key="AIzaSyCY-6OefH8pOfUcpbQgUFBoUwVgMASlKac")  # Replace with your key
+genai.configure(api_key="OPENAI_API_KEY")  # Replace with your key
 
 app = Flask(__name__)
 CORS(app)  # Enable CORS for React
