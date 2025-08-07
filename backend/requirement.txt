@@ -1,0 +1,9 @@
+flask 
+flask-cors 
+scikit-learn 
+pandas 
+joblib 
+langchain-openai 
+openai 
+python-dotenv
+google-generativeai
