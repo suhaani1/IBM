@@ -1,58 +1,78 @@
-# 🩺 AI Health Risk Predictor
+# 💓 AI Agent for Heart Disease Prediction
 
-A full-stack web application that uses **Gemini AI (Google Generative AI)** to analyze and predict health risks based on user inputs like blood pressure, cholesterol, age, etc. Built using **Flask (Python)** for the backend and **React (MUI)** for the frontend.
+An intelligent AI-based web application that predicts the risk of heart disease based on user input. Built using **Flask**, **Scikit-learn**, and a modern **React frontend**, the model evaluates patient health features and classifies the risk as "High Risk" or "Low Risk".
 
 ---
 
 ## 🧠 Features
 
-- 🔍 Predicts **heart disease risk** using machine learning models.
-- 💬 **Gemini AI integration** to provide detailed explanations & health suggestions.
-- 🖥️ React + Material UI frontend with enhanced UI/UX.
-- 🔧 Flask backend with Scikit-learn model and Google Generative AI SDK.
-- 📊 Input via form with dropdowns & smart validation.
+- AI model trained using Logistic Regression / Random Forest
+- Real-time heart disease risk prediction
+- Interactive and user-friendly frontend (React)
+- Integrated backend API (Flask)
+- Dropdown selections for better UX
+- Enhanced and styled form container
 
 ---
 
-## 📦 Tech Stack
+## 🏗️ Project Structure
 
-### Frontend
-- [React](https://reactjs.org/)
-- [Material-UI (MUI)](https://mui.com/)
-- Axios
-
-### Backend
-- [Python 3.12](https://www.python.org/)
-- [Flask](https://flask.palletsprojects.com/)
-- [Scikit-learn](https://scikit-learn.org/)
-- [Google Generative AI SDK](https://github.com/google/generative-ai-python)
 
 ---
 
-## 🚀 Installation
+## 🛠️ Tech Stack
 
-### Prerequisites
-
-- Node.js + npm
-- @mui/icons-material @emotion/react @emotion/styled framer-motion
-- Python 3.10+
-- pip
-- Gemini API key from [Google AI Studio](https://makersuite.google.com/app)
+- **Frontend**: React.js, Axios, MUI
+- **Backend**: Python, Flask
+- **ML Model**: Scikit-learn (RandomForest / LogisticRegression)
+- **Styling**: CSS, MUI Components
 
 ---
 
-### 🔧 Backend Setup (Flask)
+## 🧪 Features Used in Prediction
+
+- Age
+- Gender
+- Chest Pain Type
+- Blood Pressure
+- Cholesterol
+- Fasting Blood Sugar
+- Resting ECG
+- Maximum Heart Rate
+- Exercise-Induced Angina
+- ST Depression
+- Slope of ST
+- Number of Major Vessels
+- Thalassemia
+
+---
+
+## 🚀 Local Setup
+
+### 📦 Prerequisites
+
+- Node.js & npm
+- 1. npm install create-react-app
+2. Cd frontend 
+3. Npm install axios
+4. Npm start
+- Python 3.9+
+- `pip`
+#### frontend package: 
+@mui/icons-material @emotion/react @emotion/styled framer-motion
+---
+
+### 🔧 Backend Setup (Flask + ML)
 
 ```bash
 cd backend
 pip install -r requirements.txt
-2. Python train_model.py
-3. Python app.py
+python app.py
 ```
-FRONTEND:
-```terminal
-1. npm install create-react-app
-2. Cd frontend 
-3. Npm install axios
-4. Npm start
+### Frontend Setup
+```bash
+cd frontend
+npm install
+npm start
 ```
+## Runs at: http://localhost:3000/
